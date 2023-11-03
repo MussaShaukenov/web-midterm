@@ -1,0 +1,42 @@
+$gray: #16181C;
+$blue: #1c9bef;
+$width: 25em;
+
+.full-height-sidebar {
+  display: flex;
+  width: 35em;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+  border-left: 2px solid gray;
+  background: black;
+
+  input {
+    background: $gray;
+    border: 1px solid $gray;
+    color: white;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  button {
+    background: $gray;
+    border: 1px solid $gray;
+  }
+
+  .left-sidebar-container {
+    background: black;
+
+  }
+
+  .right-sidebar-container {
+    background: black;
+  }
+
+  .centre-sidebar-container {
+    background: black;
+
+  }
+}

@@ -1,0 +1,54 @@
+.tweet-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.tweet-container img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.tweet-input-container {
+  padding: 0 20px;
+  max-width: 80%;
+  flex: 1;
+  color: #e1e8ed;
+  border: 1px solid #1da1f2;
+  border-radius: 15px;
+}
+
+.tweet-content {
+  color: white;
+  padding: 10px 0;
+  font-size: 1.2em;
+  text-align: left;
+  min-height: 48px;
+}
+
+.tweet-actions {
+  display: flex;
+}
+
+.tweet-action {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.tweet-action svg {
+  margin-right: 8px;
+}
+
+.ant-input-textarea {
+  border: 1px solid red;
+  background: transparent;
+  color: #61dafb;
+  font-size: 16px;
+
+  &::placeholder {
+    color: #aaa;
+  }
+}
